@@ -29,7 +29,13 @@ type TeaSpec struct {
 	// Important: Run "make" to regenerate code after modifying this file
 
 	// Foo is an example field of Tea. Edit tea_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
+	// Foo string `json:"foo,omitempty"`
+
+	// Tea type
+	Type string `json:"type,omitempty"`
+
+	// Sugar needed?
+	Sugar bool `json:"sugar,omitempty"`
 }
 
 // TeaStatus defines the observed state of Tea
