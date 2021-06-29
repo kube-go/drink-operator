@@ -36,9 +36,11 @@ spec:
           spec:
             description: TeaSpec defines the desired state of Tea
             properties:
-              foo:
-                description: Foo is an example field of Tea. Edit tea_types.go to
-                  remove/update
+              sugar:
+                description: Sugar needed?
+                type: boolean
+              type:
+                description: Tea type
                 type: string
             type: object
           status:
