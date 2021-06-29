@@ -1,0 +1,6 @@
+domain: slashpai.github.io
+layout:
+- go.kubebuilder.io/v3
+projectName: drink-operator
+repo: github.com/kube-go/drink-operator
+version: "3"
