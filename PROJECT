@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: drink-operator
 repo: github.com/kube-go/drink-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: slashpai.github.io
+  group: hotdrink
+  kind: Tea
+  path: github.com/kube-go/drink-operator/api/v1alpha1
+  version: v1alpha1
 version: "3"

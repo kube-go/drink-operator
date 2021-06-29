@@ -1,0 +1,24 @@
+# permissions for end users to edit teas.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: tea-editor-role
+rules:
+- apiGroups:
+  - hotdrink.slashpai.github.io
+  resources:
+  - teas
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - hotdrink.slashpai.github.io
+  resources:
+  - teas/status
+  verbs:
+  - get
