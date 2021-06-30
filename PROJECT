@@ -13,4 +13,13 @@ resources:
   kind: Tea
   path: github.com/kube-go/drink-operator/api/v1alpha1
   version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: slashpai.github.io
+  group: hotdrink
+  kind: Coffee
+  path: github.com/kube-go/drink-operator/api/v1alpha1
+  version: v1alpha1
 version: "3"

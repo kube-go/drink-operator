@@ -1,0 +1,7 @@
+apiVersion: hotdrink.slashpai.github.io/v1alpha1
+kind: Coffee
+metadata:
+  name: coffee-sample
+spec:
+  # Add fields here
+  foo: bar
