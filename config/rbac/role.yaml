@@ -9,6 +9,32 @@ rules:
 - apiGroups:
   - hotdrink.slashpai.github.io
   resources:
+  - coffees
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - hotdrink.slashpai.github.io
+  resources:
+  - coffees/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - hotdrink.slashpai.github.io
+  resources:
+  - coffees/status
+  verbs:
+  - get
+  - patch
+  - update
+- apiGroups:
+  - hotdrink.slashpai.github.io
+  resources:
   - teas
   verbs:
   - create
