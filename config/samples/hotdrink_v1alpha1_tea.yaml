@@ -1,7 +1,18 @@
 apiVersion: hotdrink.slashpai.github.io/v1alpha1
 kind: Tea
 metadata:
-  name: tea-sample
+  name: black-tea
 spec:
   # Add fields here
-  foo: bar
+  sugar: false
+  type: black
+
+---
+apiVersion: hotdrink.slashpai.github.io/v1alpha1
+kind: Tea
+metadata:
+  name: milk-tea
+spec:
+  # Add fields here
+  sugar: true
+  type: milk
