@@ -1,7 +1,28 @@
 apiVersion: hotdrink.slashpai.github.io/v1alpha1
 kind: Coffee
 metadata:
-  name: coffee-sample
+  name: mocha
 spec:
   # Add fields here
-  foo: bar
+  sugar: false
+  type: mocha
+
+---
+apiVersion: hotdrink.slashpai.github.io/v1alpha1
+kind: Coffee
+metadata:
+  name: espresso
+spec:
+  # Add fields here
+  sugar: true
+  type: espresso
+---
+apiVersion: hotdrink.slashpai.github.io/v1alpha1
+kind: Coffee
+metadata:
+  name: cappucino
+spec:
+  # Add fields here
+  sugar: true
+  type: cappucino
+  extralatte: true
