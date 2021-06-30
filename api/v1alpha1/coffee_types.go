@@ -29,7 +29,16 @@ type CoffeeSpec struct {
 	// Important: Run "make" to regenerate code after modifying this file
 
 	// Foo is an example field of Coffee. Edit coffee_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
+	// Foo string `json:"foo,omitempty"`
+
+	// Coffee Type
+	Type string `json:"type,omitempty"`
+
+	// Sugar needed?
+	Sugar bool `json:"sugar,omitempty"`
+
+	// Extra latte?
+	ExtraLatte bool `json:"extralatte,omitempty"`
 }
 
 // CoffeeStatus defines the observed state of Coffee
