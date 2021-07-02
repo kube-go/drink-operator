@@ -36,6 +36,9 @@ spec:
           spec:
             description: TeaSpec defines the desired state of Tea
             properties:
+              recipe:
+                description: Recipe
+                type: string
               sugar:
                 description: Sugar needed?
                 type: boolean
