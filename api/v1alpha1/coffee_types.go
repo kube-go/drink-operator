@@ -39,6 +39,9 @@ type CoffeeSpec struct {
 
 	// Extra latte?
 	ExtraLatte bool `json:"extralatte,omitempty"`
+
+	// Recipe
+	Recipe string `json:"recipe,omitempty"`
 }
 
 // CoffeeStatus defines the observed state of Coffee

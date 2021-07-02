@@ -36,6 +36,9 @@ type TeaSpec struct {
 
 	// Sugar needed?
 	Sugar bool `json:"sugar,omitempty"`
+
+	// Recipe
+	Recipe string `json:"recipe,omitempty"`
 }
 
 // TeaStatus defines the observed state of Tea
