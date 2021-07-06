@@ -6,6 +6,7 @@ spec:
   # Add fields here
   sugar: false
   type: black
+  recipe: "echo make black tea without sugar"
 
 ---
 apiVersion: hotdrink.slashpai.github.io/v1alpha1
@@ -16,3 +17,14 @@ spec:
   # Add fields here
   sugar: true
   type: milk
+  recipe: "echo make milk tea with sugar"
+---
+apiVersion: hotdrink.slashpai.github.io/v1alpha1
+kind: Tea
+metadata:
+  name: milk-tea-no-sugar
+spec:
+  # Add fields here
+  sugar: false
+  type: milk
+  recipe: "echo make milk tea without sugar"
